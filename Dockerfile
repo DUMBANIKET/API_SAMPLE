@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:latest
+FROM node:10-alpine
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -18,3 +18,4 @@ EXPOSE 3000
 
 # Define the command to run the application
 CMD [ "node", "index.js" ]
+~                                 
